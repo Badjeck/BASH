@@ -4,13 +4,13 @@
 video() {
     echo "rentrez l'URL"
     read url
-    youtube-dl -F137 $url
+    youtube-dl -f137 $url
 }
 
 musique() {
     echo "rentrez l'URL"
     read url
-    youtube-dl -F140 $url
+    youtube-dl -f140 $url
 }
 
 #choix video ou musique puis choix qualité
